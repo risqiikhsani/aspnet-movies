@@ -1,0 +1,9 @@
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-8.0&tabs=visual-studio
+
+run the sqlserver 
+    docker-compose up -d
+
+run the app
+    dotnet ef migrations add "initial"
+    dotnet ef database update
+    dotnet run
